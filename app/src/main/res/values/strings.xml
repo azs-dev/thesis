@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DR9</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="serveraddress">http://192.168.1.9/dole_php/</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Local</item>
+        <item>Overseas</item>
+    </string-array>
+
+    <string-array name="empty">
+        <item>No Vacancies</item>
+    </string-array>
+
+</resources>

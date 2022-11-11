@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:paddingTop="3dp"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:id="@+id/jftextView111"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="55"
+        android:gravity="center"
+        android:text="TextView1"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="45">
+
+        <TextView
+            android:id="@+id/jftextView222"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="TextView2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/jftextView333"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/jftextView222"
+            android:gravity="center"
+            android:text="TextView3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

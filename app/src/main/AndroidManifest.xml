@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Admin.a_JobFair_p"></activity>
+        <activity android:name=".Partners.p_JobSeekerList" />
+        <activity android:name=".Admin.a_JobFair_o" />
+        <activity android:name=".Admin.a_EmployerList" />
+        <activity android:name=".Admin.a_JobFair_u" />
+        <activity android:name=".Partners.p_JobFair_p" />
+        <activity android:name=".Partners.p_EmployerList" />
+        <activity android:name=".Partners.p_JobFair_o" />
+        <activity android:name=".Partners.p_JobFair_u" />
+        <activity android:name=".Employer.e_JobFairP" />
+        <activity android:name=".Employer.e_My_OngoingVacancies" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+        <activity
+            android:name=".Employer.e_MyVacancies"
+            android:label="My Vacancies" />
+        <activity android:name=".JobSeeker.js_EmployerList" />
+        <activity android:name=".JobSeeker.js_JobFair_o" />
+        <activity android:name=".Employer.e_JobSeekerList" />
+        <activity android:name=".Employer.e_JobFairO" />
+        <activity android:name=".Employer.e_JobFairU" />
+        <activity android:name=".JobSeeker.js_JobFair_u" />
+        <activity
+            android:name=".JobSeeker.js_MatchMe"
+            android:label="Match Me!" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Partners.PartnersHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Employer.EmployerHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JobSeeker.JobSeekerHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Employer.EmployerSignup" />
+        <activity android:name=".EmployerOrJobseeker" />
+        <activity
+            android:name=".JobSeeker.JobSeekerSignup"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
